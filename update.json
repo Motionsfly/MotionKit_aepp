@@ -1,0 +1,48 @@
+{
+  "name": "MotionKit",
+  "latest": "2.37.0",
+  "date": "2026-10-22",
+  "critical": false,
+  "message": "55 new editor templates (render bars, errors, drag & drop, effect search ...) + update checker.",
+  "downloads": {
+    "aepp": "https://officialmotionsfly.gumroad.com/l/motionkit-toolkit",
+    "ae": "https://app.gumroad.com/library",
+    "pp": "https://app.gumroad.com/library"
+  },
+  "notes_url": "https://github.com/Motionsfly/MotionKit_aepp/blob/main/CHANGELOG.md",
+  "how": "Download the new version from your Gumroad library, close After Effects / Premiere Pro, run the installer (or replace the plugin folder) and restart the app. Your settings and license stay.",
+  "announcement": null,
+  "history": [
+    {
+      "version": "2.37.0",
+      "date": "2026-10-22",
+      "title": "Editor templates + GitHub updates",
+      "tag": "new",
+      "changes": [
+        { "type": "new", "text": "28 editor timeline templates: render bar green / red, render queue, trim in / out, split layer, drag file to timeline, pre-compose, pick whip, markers, time remap, waveform, expression error, missing footage and more" },
+        { "type": "new", "text": "27 editor UI templates: error + warning dialogs, render complete, render progress, out of memory, missing fonts, drag & drop import, effect search typing, effect controls, color picker, export settings, undo history and more" },
+        { "type": "new", "text": "Update checker: MotionKit tells you when a new version is out (header button + Settings > About > Updates)" },
+        { "type": "new", "text": "\"What's new\" window after every update" }
+      ]
+    },
+    {
+      "version": "2.36.0",
+      "date": "2026-10-21",
+      "title": "Money elements",
+      "changes": [
+        { "type": "new", "text": "243 money templates in Simple, Loops, Explosions, Paper Cut, Hand Drawn, Infographics, Timeline and UI Animation" }
+      ]
+    },
+    {
+      "version": "2.35.0",
+      "date": "2026-10-21",
+      "title": "Viral tab redesign",
+      "changes": [
+        { "type": "improved", "text": "Grid + Split: presets drawer with thumbnail size, settings in tabs" },
+        { "type": "new", "text": "Corner / box reveal grid animations and 21 Reveal presets" },
+        { "type": "new", "text": "40 editor timeline templates (colorist, mobile editor, keyframes, graph editor)" },
+        { "type": "fix", "text": "Theme accent colors are perfect circles" }
+      ]
+    }
+  ]
+}
