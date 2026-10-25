@@ -3,26 +3,39 @@
   "latest": "2.37.0",
   "date": "2026-10-22",
   "critical": false,
-  "message": "55 new editor templates (render bars, errors, drag & drop, effect search ...) + update checker.",
+  "message": "55 new editor templates (render bars, error dialogs, drag & drop, effect search ...) + an update checker so you never miss a new version.",
   "downloads": {
-    "aepp": "https://officialmotionsfly.gumroad.com/l/motionkit-toolkit",
+    "aepp": "https://app.gumroad.com/library",
     "ae": "https://app.gumroad.com/library",
     "pp": "https://app.gumroad.com/library"
   },
+  "store": "https://officialmotionsfly.gumroad.com/l/motionkit-toolkit",
   "notes_url": "https://github.com/Motionsfly/MotionKit_aepp/blob/main/CHANGELOG.md",
-  "how": "Download the new version from your Gumroad library, close After Effects / Premiere Pro, run the installer (or replace the plugin folder) and restart the app. Your settings and license stay.",
+  "how": "Open your Gumroad library, download the new MotionKit zip, close After Effects / Premiere Pro and run the installer again. Your settings and license stay.",
   "announcement": null,
   "history": [
     {
       "version": "2.37.0",
       "date": "2026-10-22",
-      "title": "Editor templates + GitHub updates",
-      "tag": "new",
+      "title": "Editor templates + update checker",
+      "tag": "latest",
       "changes": [
-        { "type": "new", "text": "28 editor timeline templates: render bar green / red, render queue, trim in / out, split layer, drag file to timeline, pre-compose, pick whip, markers, time remap, waveform, expression error, missing footage and more" },
-        { "type": "new", "text": "27 editor UI templates: error + warning dialogs, render complete, render progress, out of memory, missing fonts, drag & drop import, effect search typing, effect controls, color picker, export settings, undo history and more" },
-        { "type": "new", "text": "Update checker: MotionKit tells you when a new version is out (header button + Settings > About > Updates)" },
-        { "type": "new", "text": "\"What's new\" window after every update" }
+        {
+          "type": "new",
+          "text": "28 editor timeline templates (Elements > Timeline): render bar green / red, render queue, trim in / out, split layer, drag file to timeline, pre-compose, pick whip, markers, time remap, audio waveform, expression error, missing footage, timecode, RAM preview loop and more"
+        },
+        {
+          "type": "new",
+          "text": "27 editor UI templates (Elements > UI Animation): error + warning dialogs, render complete, render progress, out of memory, missing fonts, drag & drop import, effect search typing, effect controls, color picker, export format, undo history, context menu and more"
+        },
+        {
+          "type": "new",
+          "text": "Update checker: MotionKit tells you when a new version is out (green Update button in the header + Settings > About > Updates)"
+        },
+        {
+          "type": "new",
+          "text": "\"What's new\" window after every update"
+        }
       ]
     },
     {
@@ -30,7 +43,14 @@
       "date": "2026-10-21",
       "title": "Money elements",
       "changes": [
-        { "type": "new", "text": "243 money templates in Simple, Loops, Explosions, Paper Cut, Hand Drawn, Infographics, Timeline and UI Animation" }
+        {
+          "type": "new",
+          "text": "243 money templates: Simple (32), Loops (31), Explosions (30), Paper Cut (30), Hand Drawn (30), Infographics (30), Timeline (30) and UI Animation (30)"
+        },
+        {
+          "type": "new",
+          "text": "Coins, bills, money bags, piggy banks, wallets, cards, price tags, gold, charts, KPI cards, payment success, checkout, wallet balance, transaction list and more - currency symbol is editable ($, ₹, €, ₿ ...)"
+        }
       ]
     },
     {
@@ -38,10 +58,114 @@
       "date": "2026-10-21",
       "title": "Viral tab redesign",
       "changes": [
-        { "type": "improved", "text": "Grid + Split: presets drawer with thumbnail size, settings in tabs" },
-        { "type": "new", "text": "Corner / box reveal grid animations and 21 Reveal presets" },
-        { "type": "new", "text": "40 editor timeline templates (colorist, mobile editor, keyframes, graph editor)" },
-        { "type": "fix", "text": "Theme accent colors are perfect circles" }
+        {
+          "type": "improved",
+          "text": "Grid Transition + Split Screen: presets / templates open in a side drawer with adjustable thumbnail size"
+        },
+        {
+          "type": "improved",
+          "text": "Cleaner settings: Grid / Animation / Timing and Panel / Layout / Style / Animation tabs"
+        },
+        {
+          "type": "new",
+          "text": "Corner and box reveal grid animations (from all 4 corners, rings, zip, blinds, shutter, snake, rain) + 21 Reveal presets"
+        },
+        {
+          "type": "new",
+          "text": "40 editor timeline templates: color wheels, curves, scopes, node graph, mobile editor strips, trim, keyframes, graph editor, audio mixer, multicam"
+        },
+        {
+          "type": "fix",
+          "text": "Theme accent colors are perfect circles"
+        }
+      ]
+    },
+    {
+      "version": "2.34.0",
+      "title": "Viral tab: Grid Transition + Split Screen",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Editor Mode > Viral: Grid Transition (12 styles, 15 patterns, 20 presets) for After Effects and Premiere Pro"
+        },
+        {
+          "type": "new",
+          "text": "Split Screen Studio: 36 layouts, borders, rounded corners, background, panel animations"
+        },
+        {
+          "type": "improved",
+          "text": "AI Mode tabs use a compact layout; Captions & Voice keys in Settings > API Keys"
+        },
+        {
+          "type": "fix",
+          "text": "Gradient lock now stays with the shape when it moves or scales"
+        }
+      ]
+    },
+    {
+      "version": "2.33.0",
+      "title": "Create Image + API keys",
+      "changes": [
+        {
+          "type": "new",
+          "text": "AI Mode > Create Image: aspect ratio, resolution, count, style and 7 image engines"
+        },
+        {
+          "type": "improved",
+          "text": "Settings > API Keys: sections for Direct Chat, BG Remove, AI Enhancer and Create Image with auto-detect, show / hide and more than one key"
+        },
+        {
+          "type": "improved",
+          "text": "Smoother, lighter panel (less CPU while idle)"
+        }
+      ]
+    },
+    {
+      "version": "2.32.0",
+      "title": "Transitions, cursors and more",
+      "changes": [
+        {
+          "type": "new",
+          "text": "60 transitions, animated cursors, Explosions / Arcs / Blow Ups packs"
+        },
+        {
+          "type": "new",
+          "text": "46 slider templates in Elements > Timeline: video / music players, story bars, progress bars, editor tracks, waveforms"
+        },
+        {
+          "type": "new",
+          "text": "Chat animation tab, FX Search palette, screen color picker"
+        },
+        {
+          "type": "improved",
+          "text": "Timeline sliders, graph Value / Speed switch, Remove Silence closes gaps, multi-layer create, Repeater X / Y / Z, comp duplicate with copies"
+        },
+        {
+          "type": "fix",
+          "text": "Panel freeze fix and gradient lock"
+        }
+      ]
+    },
+    {
+      "version": "2.31.0",
+      "title": "AI Mode (BETA)",
+      "changes": [
+        {
+          "type": "new",
+          "text": "AI Mode (BETA) for AE + PP: Direct Chat, BG Remove and AI Enhancer"
+        },
+        {
+          "type": "new",
+          "text": "New Elements > Timeline tab: timeline, progress and process animation templates"
+        },
+        {
+          "type": "new",
+          "text": "More Premiere Pro carousel templates"
+        },
+        {
+          "type": "improved",
+          "text": "Faster loading, no more freezing; Social Media and Cards layout fixes"
+        }
       ]
     }
   ]
