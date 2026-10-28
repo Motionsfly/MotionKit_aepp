@@ -1,170 +1,184 @@
 {
-  "name": "MotionKit",
-  "latest": "2.37.0",
-  "date": "2026-10-22",
-  "critical": false,
-  "message": "55 new editor templates (render bars, error dialogs, drag & drop, effect search ...) + an update checker so you never miss a new version.",
-  "downloads": {
-    "aepp": "https://app.gumroad.com/library",
-    "ae": "https://app.gumroad.com/library",
-    "pp": "https://app.gumroad.com/library"
-  },
-  "store": "https://officialmotionsfly.gumroad.com/l/motionkit-toolkit",
-  "notes_url": "https://github.com/Motionsfly/MotionKit_aepp/blob/main/CHANGELOG.md",
-  "how": "Open your Gumroad library, download the new MotionKit zip, close After Effects / Premiere Pro and run the installer again. Your settings and license stay.",
-  "announcement": null,
+  "latest": "2.42.0",
+  "download": "https://github.com/Motionsfly/MotionKit_aepp/releases/latest",
   "history": [
     {
-      "version": "2.37.0",
-      "date": "2026-10-22",
-      "title": "Editor templates + update checker",
-      "tag": "latest",
+      "version": "2.42.0",
+      "date": "2026-10-28",
+      "title": "Path Carousel, 95 transitions, 52 carousel templates",
       "changes": [
         {
           "type": "new",
-          "text": "28 editor timeline templates (Elements > Timeline): render bar green / red, render queue, trim in / out, split layer, drag file to timeline, pre-compose, pick whip, markers, time remap, audio waveform, expression error, missing footage, timecode, RAM preview loop and more"
+          "text": "Path Carousel (AE + PP): footage / cards / text along a 3-point path, edit with the mouse"
         },
         {
           "type": "new",
-          "text": "27 editor UI templates (Elements > UI Animation): error + warning dialogs, render complete, render progress, out of memory, missing fonts, drag & drop import, effect search typing, effect controls, color picker, export format, undo history, context menu and more"
+          "text": "95 new transitions in AE + PP (Dissolve, Distort & Grunge, Light & Glow, Blur, Motion)"
         },
         {
           "type": "new",
-          "text": "Update checker: MotionKit tells you when a new version is out (green Update button in the header + Settings > About > Updates)"
+          "text": "Premiere 3D Carousel: 52 new templates, exact frame-size preview"
         },
         {
           "type": "new",
-          "text": "\"What's new\" window after every update"
+          "text": "Premiere: MOGRT box width / height, Guides presets slide panel"
+        },
+        {
+          "type": "new",
+          "text": "Media Player without black bars; Download settings layout fix"
         }
       ]
     },
     {
-      "version": "2.36.0",
-      "date": "2026-10-21",
-      "title": "Money elements",
+      "version": "2.41.0",
+      "date": "2026-10-27",
+      "title": "Smart Adjust / Null / Camera, Shake tool, Emoji + 3D Elements",
       "changes": [
         {
           "type": "new",
-          "text": "243 money templates: Simple (32), Loops (31), Explosions (30), Paper Cut (30), Hand Drawn (30), Infographics (30), Timeline (30) and UI Animation (30)"
+          "text": "Align: drag bar to resize the anchor grid"
         },
         {
           "type": "new",
-          "text": "Coins, bills, money bags, piggy banks, wallets, cards, price tags, gold, charts, KPI cards, payment success, checkout, wallet balance, transaction list and more - currency symbol is editable ($, ₹, €, ₿ ...)"
+          "text": "Keyframes: Mirror at the playhead"
+        },
+        {
+          "type": "new",
+          "text": "Quick: smart Adjust / Null / Camera / Light (Click = around all, Ctrl = per layer, Shift = cuts / control null)"
+        },
+        {
+          "type": "new",
+          "text": "Quick: Sequence, Fit Comp, one Organize popup, Wiggle & Shake tool"
+        },
+        {
+          "type": "new",
+          "text": "Popups: preview height handle, option groups in one row with a slider"
+        },
+        {
+          "type": "new",
+          "text": "Elements: Shapes, Blobs, Emoji (219) and 3D Elements (261) tabs; overlap fixes"
+        },
+        {
+          "type": "new",
+          "text": "Item & Tag compact comp section; clean FX Search; icon stroke setting"
         }
       ]
     },
     {
-      "version": "2.35.0",
-      "date": "2026-10-21",
-      "title": "Viral tab redesign",
+      "version": "2.39.0",
+      "date": "2026-10-27",
+      "title": "Premiere polish, Cursor Timeline, new Person & Timeline animations",
       "changes": [
         {
-          "type": "improved",
-          "text": "Grid Transition + Split Screen: presets / templates open in a side drawer with adjustable thumbnail size"
-        },
-        {
-          "type": "improved",
-          "text": "Cleaner settings: Grid / Animation / Timing and Panel / Layout / Style / Animation tabs"
+          "type": "new",
+          "text": "Premiere: every button icon now uses the same thin Material style as After Effects"
         },
         {
           "type": "new",
-          "text": "Corner and box reveal grid animations (from all 4 corners, rings, zip, blinds, shutter, snake, rain) + 21 Reveal presets"
+          "text": "Align: bigger anchor point grid; the anchor icon style switcher moved to Settings > Theme under Anchor grid style"
         },
         {
           "type": "new",
-          "text": "40 editor timeline templates: color wheels, curves, scopes, node graph, mobile editor strips, trim, keyframes, graph editor, audio mixer, multicam"
+          "text": "Premiere Color: palette color boxes fill with Ramp (both colors the same) - no Tint"
+        },
+        {
+          "type": "new",
+          "text": "Preview left / settings right everywhere: drag the divider to resize the live preview, set the spacing in Settings > Look & feel"
+        },
+        {
+          "type": "new",
+          "text": "SFX: one clean top bar - search, folder dropdown, volume, rescan and settings; boxes show only the name"
+        },
+        {
+          "type": "new",
+          "text": "Trim Paths: the live preview shows a square, or the selected shape layer / mask itself"
+        },
+        {
+          "type": "new",
+          "text": "Cursor: new Cursor Timeline - add moves, clicks, drags, hovers and waits, watch the live preview and add it to the comp / sequence"
+        },
+        {
+          "type": "new",
+          "text": "Person: 45 new avatar and team animations"
+        },
+        {
+          "type": "new",
+          "text": "Timeline: 51 new templates"
+        },
+        {
+          "type": "new",
+          "text": "FX Search opens inside the panel without the window title bar; Premiere footer buttons removed"
+        }
+      ]
+    },
+    {
+      "version": "2.38.0",
+      "date": "2026-10-27",
+      "title": "Big update: common settings, new icons, AI / Search / Person elements",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Settings: one common Animations switch (Off / Hover / Always) and one Size (Small / Medium / Large) for every tab - lots of separate options removed"
+        },
+        {
+          "type": "new",
+          "text": "License: 1 computer per license"
+        },
+        {
+          "type": "new",
+          "text": "Align tab: Move & Properties shows the selected layer / clip and lets you edit Position, Scale, Rotation, Opacity and Anchor live (After Effects + Premiere Pro)"
+        },
+        {
+          "type": "new",
+          "text": "Premiere Color: color boxes fill with Ramp (both colors the same) and gradients use Ramp with both gradient colors - no more Tint"
+        },
+        {
+          "type": "new",
+          "text": "New thin Material Symbols icons on every tab, button and popup - no glow, no drop shadow"
+        },
+        {
+          "type": "new",
+          "text": "Export: settings button next to Export - resolution, frame rate, bitrate, render quality, image size, JPG quality, GIF and audio settings"
+        },
+        {
+          "type": "new",
+          "text": "All popups are smaller, follow the panel size and show the live preview on the left with the settings on the right"
+        },
+        {
+          "type": "new",
+          "text": "Elements: 3 new tabs - Person (58), Search (62) and AI Mode (105 animations: AI chats, prompts, Nano Banana style image edits, voice orbs, agents ...)"
+        },
+        {
+          "type": "new",
+          "text": "Chat tab: 41 new chat and comment styles, shown in one row with a slider"
+        },
+        {
+          "type": "new",
+          "text": "Editor Mode > Guides: platform presets open in a slide panel from the right, toggles in one top row, color next to Opacity"
+        },
+        {
+          "type": "new",
+          "text": "Premiere 3D Carousel: 46 new templates (105 total) and drag clips / footage straight from the Project panel"
+        },
+        {
+          "type": "new",
+          "text": "Premiere SFX: folder dropdown next to search, rescan + settings next to the volume, settings panel with insert position, view, box width / height and duplicates, boxes show only the SFX name"
         },
         {
           "type": "fix",
-          "text": "Theme accent colors are perfect circles"
-        }
-      ]
-    },
-    {
-      "version": "2.34.0",
-      "title": "Viral tab: Grid Transition + Split Screen",
-      "changes": [
-        {
-          "type": "new",
-          "text": "Editor Mode > Viral: Grid Transition (12 styles, 15 patterns, 20 presets) for After Effects and Premiere Pro"
-        },
-        {
-          "type": "new",
-          "text": "Split Screen Studio: 36 layouts, borders, rounded corners, background, panel animations"
-        },
-        {
-          "type": "improved",
-          "text": "AI Mode tabs use a compact layout; Captions & Voice keys in Settings > API Keys"
+          "text": "Number Counter live preview in After Effects"
         },
         {
           "type": "fix",
-          "text": "Gradient lock now stays with the shape when it moves or scales"
-        }
-      ]
-    },
-    {
-      "version": "2.33.0",
-      "title": "Create Image + API keys",
-      "changes": [
-        {
-          "type": "new",
-          "text": "AI Mode > Create Image: aspect ratio, resolution, count, style and 7 image engines"
-        },
-        {
-          "type": "improved",
-          "text": "Settings > API Keys: sections for Direct Chat, BG Remove, AI Enhancer and Create Image with auto-detect, show / hide and more than one key"
-        },
-        {
-          "type": "improved",
-          "text": "Smoother, lighter panel (less CPU while idle)"
-        }
-      ]
-    },
-    {
-      "version": "2.32.0",
-      "title": "Transitions, cursors and more",
-      "changes": [
-        {
-          "type": "new",
-          "text": "60 transitions, animated cursors, Explosions / Arcs / Blow Ups packs"
-        },
-        {
-          "type": "new",
-          "text": "46 slider templates in Elements > Timeline: video / music players, story bars, progress bars, editor tracks, waveforms"
-        },
-        {
-          "type": "new",
-          "text": "Chat animation tab, FX Search palette, screen color picker"
-        },
-        {
-          "type": "improved",
-          "text": "Timeline sliders, graph Value / Speed switch, Remove Silence closes gaps, multi-layer create, Repeater X / Y / Z, comp duplicate with copies"
+          "text": "Carousel presets in one row with a slider (After Effects)"
         },
         {
           "type": "fix",
-          "text": "Panel freeze fix and gradient lock"
-        }
-      ]
-    },
-    {
-      "version": "2.31.0",
-      "title": "AI Mode (BETA)",
-      "changes": [
-        {
-          "type": "new",
-          "text": "AI Mode (BETA) for AE + PP: Direct Chat, BG Remove and AI Enhancer"
+          "text": "FX Search window opens once instead of restarting while it loads; faster panel start (3D Carousel thumbnails load when the tab opens)"
         },
         {
-          "type": "new",
-          "text": "New Elements > Timeline tab: timeline, progress and process animation templates"
-        },
-        {
-          "type": "new",
-          "text": "More Premiere Pro carousel templates"
-        },
-        {
-          "type": "improved",
-          "text": "Faster loading, no more freezing; Social Media and Cards layout fixes"
+          "type": "fix",
+          "text": "Premiere anchor box sits inside its card"
         }
       ]
     }
