@@ -1,7 +1,241 @@
 {
-  "latest": "2.42.0",
+  "latest": "2.54.0",
   "download": "https://github.com/Motionsfly/MotionKit_aepp/releases/latest",
   "history": [
+    {
+      "version": "2.54.0",
+      "date": "2026-11-18",
+      "title": "New Captions tab (CaptionKit 2.2), offline Whisper, ElevenLabs multi-key",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Captions tab rebuilt with CaptionKit 2.2 (AE + Premiere Pro): 121 caption styles with live previews, Word / Phrase / Sentence / Smart caption modes, 80+ languages, Hinglish, translation, emoji and swear censor"
+        },
+        {
+          "type": "new",
+          "text": "Captions: right-click any style to customize it - fonts, colours, size, position (drag it in the preview), glow, drop shadow, animation - with your own frame as the preview"
+        },
+        {
+          "type": "new",
+          "text": "Captions: Whisper (offline) engine - free captions on your own computer, no key and nothing uploaded (engine built in on Windows; Mac via Homebrew)"
+        },
+        {
+          "type": "new",
+          "text": "Text to Speech: Google Gemini voices + ElevenLabs with several API keys, credits shown for every key and auto-switch when a key runs out"
+        },
+        {
+          "type": "improved",
+          "text": "Settings > API Keys > Captions & Text to Speech: one place for the Gemini key, ElevenLabs keys, Whisper, caption AI model, voice AI and ffmpeg - stays in sync with the Captions tab"
+        },
+        {
+          "type": "improved",
+          "text": "Premiere Pro: captions go to a Caption track or a Video track; AE captions are editable text layers"
+        },
+        {
+          "type": "fix",
+          "text": "Version label + update checker now show the real version; Map 3D camera layer and 3D Toolkit layer order fixes are included"
+        }
+      ]
+    },
+    {
+      "version": "2.53.0",
+      "date": "2026-11-14",
+      "title": "3D Toolkit, Parallax, Putty, 3D Maps",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Editor Mode > 3D Toolkit (AE): one-click camera rig, 24 camera moves, Target (layer to layer), 16 shakes, Layout (Z / X / Y / grid / circle / random), Depth of Field + auto focus, Depth Fade, Overlap"
+        },
+        {
+          "type": "new",
+          "text": "3D Toolkit > Parallax (AE): give every layer a depth without the picture jumping (scale compensation) + 12 parallax camera moves"
+        },
+        {
+          "type": "new",
+          "text": "Viral > Putty (AE): bend any layer with a cage - drag the points on the preview, 15 shape presets, 12 living presets (jelly, sway, flag, melt ...), keyframe it or drive it with nulls"
+        },
+        {
+          "type": "new",
+          "text": "Map: search any place, 3D tilted maps with heading / orbit, sky + haze, extruded countries, Tour camera, drop pins / flags, car / ship / train travellers"
+        },
+        {
+          "type": "new",
+          "text": "Grid Reveal: 33 new premade presets (incl. Text Reveal)"
+        },
+        {
+          "type": "improved",
+          "text": "Every new tool: settings in the right slide drawer + mouse control in the live preview (orbit, dolly, pan, zoom)"
+        },
+        {
+          "type": "fix",
+          "text": "Light leaks: your own light leak videos show up by themselves - no more Scan again; the empty footage box is gone"
+        }
+      ]
+    },
+    {
+      "version": "2.52.0",
+      "date": "2026-11-13",
+      "title": "Text Behind (BETA), TypePlay flicker + 3D",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Tracker > Text Behind (BETA, AE + Premiere): text behind the people in a video or image - people found every frame, edge detail, settings drawer, all installed fonts"
+        },
+        {
+          "type": "new",
+          "text": "TypePlay: 8 reveal directions in one row under the tabs, preview plays on every preset click, hover = animated thumbnail"
+        },
+        {
+          "type": "new",
+          "text": "TypePlay: Flicker (10) and 3D (14) text presets"
+        }
+      ]
+    },
+    {
+      "version": "2.51.0",
+      "date": "2026-11-09",
+      "title": "BG Generator styles, Map preview, Premiere popups",
+      "changes": [
+        {
+          "type": "new",
+          "text": "BG Generator: 14 new looks (dashed grid, zebra marble, watercolor, pinstripes, squiggles, sunburst, crumpled paper, polka, checker, glow curve, plasma, topographic)"
+        },
+        {
+          "type": "new",
+          "text": "Map: mouse wheel zoom + drag in the preview, maps app look, everything goes in as a precomp"
+        },
+        {
+          "type": "new",
+          "text": "TypePlay: fixed preview while presets scroll, reveal direction arrows, 8 bounce presets"
+        },
+        {
+          "type": "new",
+          "text": "Mask Splitter: zoom / pan preview, cut-out with your own masks, different animation per part"
+        },
+        {
+          "type": "improved",
+          "text": "Premiere: Separate Audio / Auto Duck / Scene Detect / Vertical each in its own popup, better voice detection in Auto Duck"
+        },
+        {
+          "type": "improved",
+          "text": "Premiere Graph tab rebuilt: clean bezier graph, handles never hide"
+        },
+        {
+          "type": "fix",
+          "text": "Premiere SFX tab: top buttons visible on narrow panels; light leak files found anywhere in the MotionKit folder"
+        },
+        {
+          "type": "removed",
+          "text": "MotionKit AI tab removed; Generate Video removed from Premiere AI Mode"
+        }
+      ]
+    },
+    {
+      "version": "2.50.0",
+      "date": "2026-11-09",
+      "title": "Map, Quick Tools, Light Leaks, Photoshop",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Editor Mode > Map (AE): animated world maps - highlight countries, routes between cities, camera fly-ins"
+        },
+        {
+          "type": "new",
+          "text": "Quick Tools: TypePlay text animator + BG Generator"
+        },
+        {
+          "type": "new",
+          "text": "24 real light leak videos in Transitions > Light Leaks"
+        },
+        {
+          "type": "new",
+          "text": "Premiere Project tab: Separate Audio, Auto Duck, Scene Detect, Vertical"
+        },
+        {
+          "type": "new",
+          "text": "Photoshop version of MotionKit"
+        },
+        {
+          "type": "improved",
+          "text": "Resizable compact settings drawers; Mask Splitter v2; Generate Video accepts any code"
+        }
+      ]
+    },
+    {
+      "version": "2.48.0",
+      "date": "2026-11-09",
+      "title": "Grid Reveal studio, Mask Splitter, Client Review links",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Viral > Grid Reveal studio with visual presets and a settings drawer"
+        },
+        {
+          "type": "new",
+          "text": "Editor Mode > Mask Splitter: every part of an image becomes its own animated layer"
+        },
+        {
+          "type": "new",
+          "text": "Connect > Client Review links: send a watch-only link, comments come back"
+        },
+        {
+          "type": "improved",
+          "text": "Split Screen: real pictures in the preview, settings drawer"
+        }
+      ]
+    },
+    {
+      "version": "2.46.0",
+      "date": "2026-11-08",
+      "title": "MotionKit Connect + theme presets",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Editor Mode > Connect: phone live preview + remote control, Wireless Import, shortcuts, annotations (local Wi-Fi + remote)"
+        },
+        {
+          "type": "new",
+          "text": "Theme presets: accent + background + buttons in one click"
+        }
+      ]
+    },
+    {
+      "version": "2.45.0",
+      "date": "2026-11-08",
+      "title": "Mockups as precomps",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Mockups are added as one precomp, screen footage replaceable, 2D / 3D switch"
+        }
+      ]
+    },
+    {
+      "version": "2.44.0",
+      "date": "2026-11-07",
+      "title": "Tracker + Graph presets",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Editor Mode > Tracker (AE + Premiere): track & attach any layer / clip, stabilize, zoomable preview"
+        },
+        {
+          "type": "improved",
+          "text": "Graph: presets drawer, multi-key graph; Premiere Smooth Graph"
+        }
+      ]
+    },
+    {
+      "version": "2.43.0",
+      "date": "2026-10-29",
+      "title": "Grid Focus, Split Screen mouse control, Align shortcuts, FX slots",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Grid Focus (multiple images), Split Screen mouse control, Align shortcuts, FX slots, Purge"
+        }
+      ]
+    },
     {
       "version": "2.42.0",
       "date": "2026-10-28",
@@ -182,5 +416,7 @@
         }
       ]
     }
-  ]
+  ],
+  "date": "2026-11-18",
+  "message": "New Captions tab (CaptionKit 2.2): 121 styles, style customizer, offline Whisper and ElevenLabs multi-key Text to Speech."
 }
