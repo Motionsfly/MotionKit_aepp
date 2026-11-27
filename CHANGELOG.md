@@ -2,6 +2,61 @@
 
 Every MotionKit (After Effects + Premiere Pro) release. **Update:** open your [Gumroad library](https://app.gumroad.com/library), download the new zip and run the installer again - settings and license stay.
 
+## v2.59.2 - 2026-11-27 - Photoshop fixes: shapes on any resolution, vector icons, guides & mockups
+- **Fix:** Photoshop: shapes from the Create tab and the Elements tab are the right size and in the right place on 300 ppi (and any non-72 ppi) documents
+- **Fix:** Photoshop: safe-zone guides, device mockups and PNG icons are placed pixel for pixel on any document resolution
+- **New:** Photoshop: Icons tab > Shape makes real editable vector shape layers (fill and outline icons, grouped) - if Photoshop refuses, the PNG is added instead
+- **Fix:** Photoshop: New document with black background is really black; Social sizes keeps your background colour; Layers to PNG exports hidden layers too
+- **Improved:** Photoshop: Safe Guide Remove also finds guides inside groups; Editor > Media button reads 'Add to document'
+
+## v2.59.1 - 2026-11-27 - Photoshop Color Studio fix, AI Mode + Elements in Photoshop, comment automation
+- **Fix:** Photoshop: Color Studio now works on every layer type - text, shape, pixel, smart object, fill layers, the locked Background and locked layers (it unlocks what it must, turns layer effects on, and the panel reloads its Photoshop script after an update, so no 'Unknown color tool')
+- **New:** Photoshop: AI Mode tab with Direct Chat, BG Remove, AI Enhancer and Create Image - chat edits run as Photoshop scripts on your document (one Undo), generated images go in as layers
+- **New:** Photoshop: Elements tab - 349 premade editable elements in 9 groups (Sale & Badges, Buttons, Arrows, Icons, Social, Labels, Frames, Posters, Backgrounds), each in several colour styles; built as a group of vector shape layers, live text and layer styles
+- **New:** Elements > Automation: 14 comment automation animations - reel and YouTube comment -> auto reply -> DM in a phone mockup, comment flood with auto replies, comment keyword -> DM, DM inbox auto replies (dark, light, purple, green)
+- **Improved:** Photoshop: API Keys section is visible in Settings so AI Mode keys can be added
+
+## v2.59.0 - 2026-11-27 - Photoshop round trip, Color Studio, Automation elements, Cursor effects
+- **New:** After Effects: one Photoshop button in the Quick tab (next to Snapshot, Import, Export) - the comp at the playhead goes to Photoshop as editable layers: text = editable text, solids and simple shapes = editable shape layers, images = Smart Objects, drop shadow / glow / stroke / colour overlay = editable layer styles
+- **New:** Photoshop: Send to After Effects button (Layers tab) - the document comes into After Effects as an editable comp
+- **New:** Photoshop: Color Studio - solid or gradient Color Overlay, gradient / solid Stroke, fill layers, 18 colours, 16 gradients, blend mode, opacity, angle, scale, reverse - on every selected layer
+- **New:** Photoshop: Image Download - paste links from Google Images, Instagram, Pinterest, X, Reddit, Unsplash, Pexels or any website; images only, straight into Photoshop
+- **New:** Elements: new Automation tab - 49 animations (workflow nodes, IF branches, checklists, CI/CD, gears, toasts, email, schedule, API, data sync, switch, counters, bots, conveyor)
+- **New:** Theme: Cursor effects - 14 animations that follow the mouse in the panel (glow, ring, sparkles, comet, ribbon, bubbles, embers, snow, confetti, pixels, hearts, ripples, orbit, electric) with On / Off, amount, size and colour
+- **New:** Guides: "My profile" - Reels, TikTok, Shorts, Stories, YouTube and Pinterest guides show the Motionsfly profile (avatar, name, verified badge, likes, comments, caption, audio)
+- **Improved:** Captions upgraded to CaptionKit 2.3: every language gets a font that has its letters, right-to-left languages, better offline Whisper on Mac, shared API key vault
+- **Fix:** Comp Saver / Library (AE + Premiere): the category row no longer lists every sub-folder - only folders with saved items, the rest in a Folders menu
+- **Improved:** Photoshop: the Download section is images only (no video / audio)
+
+## v2.58.1 - 2026-11-25 - Photoshop import, paste & export folder, Text Plate
+- **New:** Photoshop: Import button - images, PSD, AI / PDF / SVG, RAW and video come in as layers (or Open as new documents)
+- **New:** Photoshop: Paste Image - copy any image in the browser (right-click > Copy image) or a screenshot and paste it straight into Photoshop; Paste New makes a document from the clipboard
+- **New:** Photoshop: choose your own export folder (Save Copy, To Folder, Layers PNG, Social sizes)
+- **New:** Quick Tools > Layer: Text Plate replaces Text Box - box, pill, outline, underline or marker that follows the text, with grow-in animation
+- **Fix:** After Effects: To Photoshop / From Photoshop buttons work (they showed "Tool not loaded")
+- **Fix:** Photoshop: Send to AE / Get from AE really send the document now
+- **Fix:** Photoshop: new direct connection - no more "MK_NOT_LOADED"; if scripts can't load, a banner shows the reason
+- **Fix:** Photoshop: Select Subject, Remove BG and Stamp work when a hidden layer, group or text layer is selected; clear message instead of "General Photoshop error"
+- **Improved:** Removed the 2.57 tools Click Pointer, Dot Burst, Dot Wipe and Smart Reveal
+- **Improved:** Photoshop CC 2017 (18.0) and newer can open the panel
+
+## v2.57.1 - 2026-11-24 - Fix update
+- **Fix:** 2.57.0 build could stop MotionKit from working in After Effects, Premiere Pro and Photoshop - 2.57.1 uses the normal code again
+- **Fix:** FX Search window: no more lock / "files were changed" message after updating
+
+## v2.57.0 - 2026-11-23 - Click Pointer, Dot Burst, Dot Wipe, Smart Reveal
+- **New:** Quick Tools > Tools: Click Pointer - a mouse pointer travels to the selected layers and clicks them (6 styles, press, ripple, 3D lift, trail, clicked layer reacts)
+- **New:** Quick Tools > Tools: Dot Burst - halftone dot shockwave from a layer with glow (1-5 waves, dots or pixels)
+- **New:** Quick Tools > Tools: Dot Wipe - transition through growing dots or pixels from 7 directions
+- **New:** Quick Tools > Tools: Smart Reveal - 10 reveal looks (Soft Wipe, Blur In, Flicker, Spiral, Glitch, Pixelate, Blinds, Vortex, Zoom In, Light Burn) on one slider
+- **Improved:** Text Box rebuilt: a box layer under the text that follows the text, with padding, corner, colour and opacity
+- **Improved:** Photoshop opens its own MotionKit page - no After Effects / Premiere code runs in Photoshop
+- **Fix:** Captions: "Host script error" fixed; offline Whisper engine built in on Mac (no Homebrew)
+- **Fix:** Captions Gemini key can no longer be overwritten by AI Mode
+
+## v2.54.1 - 2026-11-18 - Captions hotfix
+- **Fix:** Captions: fixed "Host script error (ck_sources / ck_ppPrepare / ck_ppPlace)" - the Captions host functions now always load in After Effects and Premiere Pro, and any real error now shows its reason
+
 ## v2.54.0 - 2026-11-18 - New Captions tab (CaptionKit 2.2), offline Whisper, ElevenLabs multi-key
 - **New:** Captions tab rebuilt with CaptionKit 2.2 (AE + Premiere Pro): 121 caption styles with live previews, Word / Phrase / Sentence / Smart caption modes, 80+ languages, Hinglish, translation, emoji and swear censor
 - **New:** Captions: right-click any style to customize it - fonts, colours, size, position (drag it in the preview), glow, drop shadow, animation - with your own frame as the preview

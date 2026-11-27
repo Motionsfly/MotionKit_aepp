@@ -1,8 +1,34 @@
 # MotionKit by Motionsfly
 
-All-in-one panel for **After Effects** and **Premiere Pro** (Windows + macOS).
+All-in-one panel for **After Effects**, **Premiere Pro** and **Photoshop** (Windows + macOS).
 
-## Latest version: v2.54.0 (18 Nov 2026)
+## Latest version: v2.59.2 (27 Nov 2026)
+
+**New in v2.59.2**
+- **New:** After Effects: one Photoshop button in the Quick tab (next to Snapshot, Import, Export) - the comp at the playhead goes to Photoshop as editable layers: text = editable text, solids and simple shapes = editable shape layers, images = Smart Objects, drop shadow / glow / stroke / colour overlay = editable layer styles
+- **New:** Photoshop: Send to After Effects button (Layers tab) - the document comes into After Effects as an editable comp
+- **New:** Photoshop: Color Studio - solid or gradient Color Overlay, gradient / solid Stroke, fill layers, 18 colours, 16 gradients, blend mode, opacity, angle, scale, reverse - on every selected layer
+- **New:** Photoshop: Image Download - paste links from Google Images, Instagram, Pinterest, X, Reddit, Unsplash, Pexels or any website; images only, straight into Photoshop
+- **New:** Elements: new Automation tab - 49 animations (workflow nodes, IF branches, checklists, CI/CD, gears, toasts, email, schedule, API, data sync, switch, counters, bots, conveyor)
+- **New:** Theme: Cursor effects - 14 animations that follow the mouse in the panel (glow, ring, sparkles, comet, ribbon, bubbles, embers, snow, confetti, pixels, hearts, ripples, orbit, electric) with On / Off, amount, size and colour
+- **New:** Guides: "My profile" - Reels, TikTok, Shorts, Stories, YouTube and Pinterest guides show the Motionsfly profile (avatar, name, verified badge, likes, comments, caption, audio)
+- **Improved:** Captions upgraded to CaptionKit 2.3: every language gets a font that has its letters, right-to-left languages, better offline Whisper on Mac, shared API key vault
+- **Fix:** Comp Saver / Library (AE + Premiere): the category row no longer lists every sub-folder - only folders with saved items, the rest in a Folders menu
+- **Improved:** Photoshop: the Download section is images only (no video / audio)
+
+**New in v2.58.1**
+- **New:** Photoshop: Import button - images, PSD, AI / PDF / SVG, RAW and video come in as layers (or Open as new documents)
+- **New:** Photoshop: Paste Image - copy any image in the browser (right-click > Copy image) or a screenshot and paste it straight into Photoshop; Paste New makes a document from the clipboard
+- **New:** Photoshop: choose your own export folder (Save Copy, To Folder, Layers PNG, Social sizes)
+- **New:** Quick Tools > Layer: Text Plate replaces Text Box - box, pill, outline, underline or marker that follows the text, with grow-in animation
+- **Fix:** After Effects: To Photoshop / From Photoshop buttons work (they showed "Tool not loaded")
+- **Fix:** Photoshop: Send to AE / Get from AE really send the document now
+- **Fix:** Photoshop: new direct connection - no more "MK_NOT_LOADED"; if scripts can't load, a banner shows the reason
+- **Fix:** Photoshop: Select Subject, Remove BG and Stamp work when a hidden layer, group or text layer is selected; clear message instead of "General Photoshop error"
+- **Improved:** Removed the 2.57 tools Click Pointer, Dot Burst, Dot Wipe and Smart Reveal
+- **Improved:** Photoshop CC 2017 (18.0) and newer can open the panel
+
+**v2.57** - Photoshop got its own MotionKit page; Captions "Host script error" fixed; offline Whisper built in on Mac
 
 **New in v2.54 - Captions tab rebuilt (CaptionKit 2.2 inside MotionKit)**
 - **121 caption styles** with live previews, Word / Phrase / Sentence / Smart caption modes, 80+ languages, Hinglish + translation, emoji, swear censor

@@ -1,7 +1,222 @@
 {
-  "latest": "2.54.0",
+  "latest": "2.59.2",
+  "date": "2026-11-27",
+  "message": "Photoshop fixes: shapes and elements on any document resolution, icons as editable vector shapes, guides and mockups placed pixel for pixel.",
   "download": "https://github.com/Motionsfly/MotionKit_aepp/releases/latest",
   "history": [
+    {
+      "version": "2.59.2",
+      "date": "2026-11-27",
+      "title": "Photoshop fixes: shapes on any resolution, vector icons, guides & mockups",
+      "changes": [
+        {
+          "type": "fix",
+          "text": "Photoshop: shapes from the Create tab and the Elements tab are the right size and in the right place on 300 ppi (and any non-72 ppi) documents"
+        },
+        {
+          "type": "fix",
+          "text": "Photoshop: safe-zone guides, device mockups and PNG icons are placed pixel for pixel on any document resolution"
+        },
+        {
+          "type": "new",
+          "text": "Photoshop: Icons tab > Shape makes real editable vector shape layers (fill and outline icons, grouped) - if Photoshop refuses, the PNG is added instead"
+        },
+        {
+          "type": "fix",
+          "text": "Photoshop: New document with black background is really black; Social sizes keeps your background colour; Layers to PNG exports hidden layers too"
+        },
+        {
+          "type": "improved",
+          "text": "Photoshop: Safe Guide Remove also finds guides inside groups; Editor > Media button reads 'Add to document'"
+        }
+      ]
+    },
+    {
+      "version": "2.59.1",
+      "date": "2026-11-27",
+      "title": "Photoshop Color Studio fix, AI Mode + Elements in Photoshop, comment automation",
+      "changes": [
+        {
+          "type": "fix",
+          "text": "Photoshop: Color Studio now works on every layer type - text, shape, pixel, smart object, fill layers, the locked Background and locked layers (it unlocks what it must, turns layer effects on, and the panel reloads its Photoshop script after an update, so no 'Unknown color tool')"
+        },
+        {
+          "type": "new",
+          "text": "Photoshop: AI Mode tab with Direct Chat, BG Remove, AI Enhancer and Create Image - chat edits run as Photoshop scripts on your document (one Undo), generated images go in as layers"
+        },
+        {
+          "type": "new",
+          "text": "Photoshop: Elements tab - 349 premade editable elements in 9 groups (Sale & Badges, Buttons, Arrows, Icons, Social, Labels, Frames, Posters, Backgrounds), each in several colour styles; built as a group of vector shape layers, live text and layer styles"
+        },
+        {
+          "type": "new",
+          "text": "Elements > Automation: 14 comment automation animations - reel and YouTube comment -> auto reply -> DM in a phone mockup, comment flood with auto replies, comment keyword -> DM, DM inbox auto replies (dark, light, purple, green)"
+        },
+        {
+          "type": "improved",
+          "text": "Photoshop: API Keys section is visible in Settings so AI Mode keys can be added"
+        }
+      ]
+    },
+    {
+      "version": "2.59.0",
+      "date": "2026-11-27",
+      "title": "Photoshop round trip, Color Studio, Automation elements, Cursor effects",
+      "changes": [
+        {
+          "type": "new",
+          "text": "After Effects: one Photoshop button in the Quick tab (next to Snapshot, Import, Export) - the comp at the playhead goes to Photoshop as editable layers: text = editable text, solids and simple shapes = editable shape layers, images = Smart Objects, drop shadow / glow / stroke / colour overlay = editable layer styles"
+        },
+        {
+          "type": "new",
+          "text": "Photoshop: Send to After Effects button (Layers tab) - the document comes into After Effects as an editable comp"
+        },
+        {
+          "type": "new",
+          "text": "Photoshop: Color Studio - solid or gradient Color Overlay, gradient / solid Stroke, fill layers, 18 colours, 16 gradients, blend mode, opacity, angle, scale, reverse - on every selected layer"
+        },
+        {
+          "type": "new",
+          "text": "Photoshop: Image Download - paste links from Google Images, Instagram, Pinterest, X, Reddit, Unsplash, Pexels or any website; images only, straight into Photoshop"
+        },
+        {
+          "type": "new",
+          "text": "Elements: new Automation tab - 49 animations (workflow nodes, IF branches, checklists, CI/CD, gears, toasts, email, schedule, API, data sync, switch, counters, bots, conveyor)"
+        },
+        {
+          "type": "new",
+          "text": "Theme: Cursor effects - 14 animations that follow the mouse in the panel (glow, ring, sparkles, comet, ribbon, bubbles, embers, snow, confetti, pixels, hearts, ripples, orbit, electric) with On / Off, amount, size and colour"
+        },
+        {
+          "type": "new",
+          "text": "Guides: \"My profile\" - Reels, TikTok, Shorts, Stories, YouTube and Pinterest guides show the Motionsfly profile (avatar, name, verified badge, likes, comments, caption, audio)"
+        },
+        {
+          "type": "improved",
+          "text": "Captions upgraded to CaptionKit 2.3: every language gets a font that has its letters, right-to-left languages, better offline Whisper on Mac, shared API key vault"
+        },
+        {
+          "type": "fix",
+          "text": "Comp Saver / Library (AE + Premiere): the category row no longer lists every sub-folder - only folders with saved items, the rest in a Folders menu"
+        },
+        {
+          "type": "improved",
+          "text": "Photoshop: the Download section is images only (no video / audio)"
+        }
+      ]
+    },
+    {
+      "version": "2.58.1",
+      "date": "2026-11-25",
+      "title": "Photoshop import, paste & export folder, Text Plate",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Photoshop: Import button - images, PSD, AI / PDF / SVG, RAW and video come in as layers (or Open as new documents)"
+        },
+        {
+          "type": "new",
+          "text": "Photoshop: Paste Image - copy any image in the browser (right-click > Copy image) or a screenshot and paste it straight into Photoshop; Paste New makes a document from the clipboard"
+        },
+        {
+          "type": "new",
+          "text": "Photoshop: choose your own export folder (Save Copy, To Folder, Layers PNG, Social sizes)"
+        },
+        {
+          "type": "new",
+          "text": "Quick Tools > Layer: Text Plate replaces Text Box - box, pill, outline, underline or marker that follows the text, with grow-in animation"
+        },
+        {
+          "type": "fix",
+          "text": "After Effects: To Photoshop / From Photoshop buttons work (they showed \"Tool not loaded\")"
+        },
+        {
+          "type": "fix",
+          "text": "Photoshop: Send to AE / Get from AE really send the document now"
+        },
+        {
+          "type": "fix",
+          "text": "Photoshop: new direct connection - no more \"MK_NOT_LOADED\"; if scripts can't load, a banner shows the reason"
+        },
+        {
+          "type": "fix",
+          "text": "Photoshop: Select Subject, Remove BG and Stamp work when a hidden layer, group or text layer is selected; clear message instead of \"General Photoshop error\""
+        },
+        {
+          "type": "improved",
+          "text": "Removed the 2.57 tools Click Pointer, Dot Burst, Dot Wipe and Smart Reveal"
+        },
+        {
+          "type": "improved",
+          "text": "Photoshop CC 2017 (18.0) and newer can open the panel"
+        }
+      ]
+    },
+    {
+      "version": "2.57.1",
+      "date": "2026-11-24",
+      "title": "Fix update for 2.57",
+      "changes": [
+        {
+          "type": "fix",
+          "text": "2.57.0 build could stop MotionKit from working in After Effects, Premiere Pro and Photoshop - 2.57.1 uses the normal code again"
+        },
+        {
+          "type": "fix",
+          "text": "FX Search window: no more lock / \"files were changed\" message after updating"
+        }
+      ]
+    },
+    {
+      "version": "2.57.0",
+      "date": "2026-11-23",
+      "title": "Click Pointer, Dot Burst, Dot Wipe, Smart Reveal",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Quick Tools > Tools: Click Pointer - a mouse pointer travels to the selected layers and clicks them (6 styles, press, ripple, 3D lift, trail, clicked layer reacts)"
+        },
+        {
+          "type": "new",
+          "text": "Quick Tools > Tools: Dot Burst - halftone dot shockwave from a layer with glow (1-5 waves, dots or pixels)"
+        },
+        {
+          "type": "new",
+          "text": "Quick Tools > Tools: Dot Wipe - transition through growing dots or pixels from 7 directions"
+        },
+        {
+          "type": "new",
+          "text": "Quick Tools > Tools: Smart Reveal - 10 reveal looks (Soft Wipe, Blur In, Flicker, Spiral, Glitch, Pixelate, Blinds, Vortex, Zoom In, Light Burn) on one slider"
+        },
+        {
+          "type": "improved",
+          "text": "Text Box rebuilt: a box layer under the text that follows the text, with padding, corner, colour and opacity"
+        },
+        {
+          "type": "improved",
+          "text": "Photoshop opens its own MotionKit page - no After Effects / Premiere code runs in Photoshop"
+        },
+        {
+          "type": "fix",
+          "text": "Captions: \"Host script error\" fixed; offline Whisper engine built in on Mac (no Homebrew)"
+        },
+        {
+          "type": "fix",
+          "text": "Captions Gemini key can no longer be overwritten by AI Mode"
+        }
+      ]
+    },
+    {
+      "version": "2.54.1",
+      "date": "2026-11-18",
+      "title": "Captions hotfix",
+      "changes": [
+        {
+          "type": "fix",
+          "text": "Captions: fixed \"Host script error (ck_sources / ck_ppPrepare / ck_ppPlace)\" - the Captions host functions now always load in After Effects and Premiere Pro, and any real error now shows its reason"
+        }
+      ]
+    },
     {
       "version": "2.54.0",
       "date": "2026-11-18",
@@ -416,7 +631,5 @@
         }
       ]
     }
-  ],
-  "date": "2026-11-18",
-  "message": "New Captions tab (CaptionKit 2.2): 121 styles, style customizer, offline Whisper and ElevenLabs multi-key Text to Speech."
+  ]
 }
